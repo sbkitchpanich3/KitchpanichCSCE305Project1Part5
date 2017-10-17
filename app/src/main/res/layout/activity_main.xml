@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sbkitchpanich.kitchpanichcsce305project1part5.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:stretchColumns="0,1,2">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF">
+
+                    <TextView android:text="Low consonant"
+                        android:gravity="center"/>
+
+                    <TextView android:text="Mid consonant"
+                        android:gravity="center"/>
+
+                    <TextView android:text="High Consonant"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:stretchColumns="0,1,2">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF">
+
+                    <TextView android:text="High Tone"
+                        android:gravity="center"/>
+
+                    <TextView android:text="Low Tone"
+                        android:gravity="center"/>
+
+                    <TextView android:text="Low Tone"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:stretchColumns="0,1,2">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="วิก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กิก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ขิก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="นึก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กึก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ผึก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="คุก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กุก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="สุก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="รัก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กัก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ผัก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="เล็ก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เก็ก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เข็ก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="นก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="หก"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="นัด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กัด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ขัด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="คิด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กิด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ผิด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="ยึด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กึด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ขึด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="คุด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กุด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="สุด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="เม็ด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เก็ด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เผ็ด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="คด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="หด"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="คับ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กับ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="สับ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="ริบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กิบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="สิบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="ทึบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กึบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="หึบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="ชุบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ดุบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ฉุบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="เล็บ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เก็บ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="เห็บ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF">
+
+                        <TextView android:text="งบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="กบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                        <TextView android:text="ขบ"
+                            android:gravity="center"
+                            android:textSize="20dp"/>
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </ScrollView>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
